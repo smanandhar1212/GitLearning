@@ -7,14 +7,13 @@ public class fibonacciAssignment {
 		int firstNumber = 0;
 		int secondNumber = 1;
 		System.out.print(firstNumber + "," + secondNumber + ",");
-		
-		for (int i=1; i<=18; i++) {
+
+		for (int i = 1; i <= 18; i++) {
 			int thirdNumber = firstNumber + secondNumber;
 			System.out.print(thirdNumber + ",");
-			firstNumber=secondNumber;
-			secondNumber=thirdNumber;
+			firstNumber = secondNumber;
+			secondNumber = thirdNumber;
 		}
 	}
-	
 
 }
