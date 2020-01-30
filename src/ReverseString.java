@@ -4,6 +4,12 @@ public class ReverseString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		reverseString();
+
+	}
+
+	public static void reverseString() {
+
 		String color = "GREEN";
 		int reverse = color.length();
 
